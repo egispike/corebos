@@ -4,9 +4,10 @@
 			<div class="slds-page-header__col-title">
 				<div class="slds-media">
 					<div class="slds-media__figure">
-						<span class="slds-icon_container slds-icon-standard-opportunity" title="{'SERVER_CONFIGURATION'|@getTranslatedString:$MODULE}">
-							<img src="modules/CobroPago/settings.png" alt="{'SERVER_CONFIGURATION'|@getTranslatedString:$MODULE}" width="48" height="48" border="0" title="{'SERVER_CONFIGURATION'|@getTranslatedString:$MODULE}">
-							<span class="slds-assistive-text">{'SERVER_CONFIGURATION'|@getTranslatedString:$MODULE}</span>
+						<span class="slds-icon_container slds-icon-utility-announcement slds-current-color" title="{'SERVER_CONFIGURATION'|@getTranslatedString:$MODULE}"> 
+							<svg class="slds-icon slds-icon_large" aria-hidden="true"> 
+								<use xlink:href="include/LD/assets/icons/utility-sprite/svg/symbols.svg#adjust_value"></use> 
+							</svg>
 						</span>
 					</div>
 					<div class="slds-media__body">
